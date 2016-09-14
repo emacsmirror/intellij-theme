@@ -65,7 +65,7 @@
      (param . (:foreground "#000000"))
      (class . (:foreground "#20999d"))
      (trait . (:foreground "#20999d" :slant italic))
-     (object . (:foreground "#000000" :slant italic))
+     (object . (:foreground "#600e7a" :slant italic))
      (package . (:foreground "#000000"))
      (deprecated . (:strike-through "#000000"))
      )))
@@ -87,7 +87,7 @@
  ;; http://www.gnu.org/software/emacs/manual/html_node/elisp/Faces-for-Font-Lock.html
  '(font-lock-warning-face ((t (:underline (:style wave :color "orange" :inherit 'default)))))
                                         ;for a construct that is peculiar, or that greatly changes the meaning of other text.
- '(font-lock-function-name-face ((t (:foreground "#000000" :inherit 'default))))
+ '(font-lock-function-name-face ((t (:foreground "#000000" :inherit 'default :weight bold))))
                                         ;for the name of a function being defined or declared.
  '(font-lock-variable-name-face ((t (:inherit 'default))))
                                         ;for the name of a variable being defined or declared.
@@ -103,7 +103,7 @@
                                         ;for the names of constants, like ‘NULL’ in C.
  '(font-lock-builtin-face ((t (:inherit 'font-lock-keyword-face))))
                                         ;for the names of built-in functions.
- '(font-lock-preprocessor-face ((t (:inherit 'font-lock-builtin-face))))
+ '(font-lock-preprocessor-face ((t (:inherit 'font-lock-builtin-face :foreground "#a57705"))))
                                         ;for preprocessor commands.
  '(font-lock-string-face ((t (:foreground "#008000" :weight bold :inherit 'default))))
                                         ;for string constants.
