@@ -65,7 +65,7 @@
      (param . (:foreground "#000000"))
      (class . (:foreground "#20999d"))
      (trait . (:foreground "#20999d" :slant italic))
-     (object . (:foreground "#600e7a" :slant italic))
+     (object . (:foreground "#5974ab" :slant italic))
      (package . (:foreground "#000000"))
      (deprecated . (:strike-through "#000000"))
      )))
@@ -99,7 +99,7 @@
                                         ;for comments delimiters, like ‘/*’ and ‘*/’ in C.
  '(font-lock-type-face ((t (:foreground "#20999d" :inherit 'default))))
                                         ;for the names of user-defined data types.
- '(font-lock-constant-face ((t (:foreground "#000000" :weight bold :inherit 'font-lock-variable-name-face))))
+ '(font-lock-constant-face ((t (:foreground "#5974ab" :weight bold :inherit 'font-lock-variable-name-face))))
                                         ;for the names of constants, like ‘NULL’ in C.
  '(font-lock-builtin-face ((t (:inherit 'font-lock-keyword-face))))
                                         ;for the names of built-in functions.
