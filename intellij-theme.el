@@ -115,7 +115,7 @@
  '(flymake-warnline ((t (:inherit 'warning))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
  '(minibuffer-prompt ((t (:weight bold :slant normal :underline nil :inverse-video nil :foreground "#259185"))))
- '(highlight ((t (:background "#eeeeee"))))
+ '(highlight ((t (:background "#f6ecba"))))
  '(region ((t (:weight normal :slant normal :underline nil :inverse-video t :foreground "#5974ab" :background "#ffffff"))))
  '(shadow ((t (:foreground "#465a61"))))
  '(secondary-selection ((t (:background "#0a2832"))))
@@ -184,7 +184,6 @@
 (when (and (boundp 'custom-theme-load-path) load-file-name)
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
-
 
 (provide-theme 'intellij)
 
