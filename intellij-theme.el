@@ -124,7 +124,7 @@
  '(link ((t (:weight normal :slant normal :underline (:color foreground-color :style line) :inverse-video nil :foreground "#5859b7"))))
  '(link-visited ((t (:weight normal :slant normal :underline (:color foreground-color :style line) :inverse-video nil :foreground "#c61b6e" :inherit (link)))))
  '(fringe ((t (:background nil :foreground nil))))
- '(header-line ((t (:weight normal :slant normal :underline nil :box nil :inverse-video t :foreground "#708183g" :background "#0a2832" :inherit (mode-line)))))
+ '(header-line ((t (:weight normal :slant normal :underline nil :box nil :inverse-video t :foreground "#708183" :background "#0a2832" :inherit (mode-line)))))
  '(tooltip ((((class color)) (:foreground "black" :background "lightyellow"))))
  '(mode-line ((t (:weight normal :slant normal :underline nil :box nil :inverse-video t :foreground "#000000" :background "#ffffff"))))
  '(mode-line-inactive ((t (:weight normal :slant normal :underline nil :box nil :inverse-video t :foreground "#888888" :background "#ffffff" :inherit (mode-line)))))
