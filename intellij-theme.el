@@ -74,7 +74,7 @@
  'intellij
  '(default ((t (:inherit nil :stipple nil :background "#ffffff" :foreground "#000000"
                          :inverse-video nil :box nil :strike-through nil :overline nil
-                         :underline nil :slant normal :weight normal :height 120
+                         :underline nil :slant normal :weight normal
                          :width normal :foundry nil))))
  '(cursor ((t (:foreground "#ffffff" :background "#5974ab"))))
  '(error ((t (:inherit 'default :underline (:style wave :color "red")))))
