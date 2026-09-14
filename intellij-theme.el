@@ -42,7 +42,7 @@
               (face-spec-set-2 face frame (cadr spec)))
           (face-spec-set-2 face frame (face-default-spec face))))
       (face-spec-set-2 face frame (get face 'face-override-spec)))
-    (defadvice face-spec-recalc (around new-recalc (face frame) activate)
+    (define-advice face-spec-recalc (:override (face frame) new-recalc)
       "Use `face-spec-recalc-new' instead."
       (face-spec-recalc-new face frame))))
 
